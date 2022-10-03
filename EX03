@@ -1,0 +1,13 @@
+{
+            double num;
+            Console.WriteLine("digite um numero: ");
+            num = double.Parse(Console.ReadLine());
+            
+
+            Console.WriteLine(Raiz(num));
+        }
+
+        static double Raiz(double x)
+        {
+            return x * x;
+        }
