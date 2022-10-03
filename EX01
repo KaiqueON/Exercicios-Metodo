@@ -1,0 +1,13 @@
+double a, b;
+            Console.WriteLine("digite um numero: ");
+            a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo numero: ");
+            b = double.Parse(Console.ReadLine());
+
+            Console.WriteLine(Multiplicação(a, b));
+        }
+
+            static double Multiplicação(double x, double y)
+            {
+                return x * y;
+            }
