@@ -1,0 +1,14 @@
+{
+            double b, h;
+            Console.WriteLine("digite a base: ");
+            b = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a altura: ");
+            h = double.Parse(Console.ReadLine());
+
+            Console.WriteLine(AreaRetangulo(b,h));
+        }
+
+            static double AreaRetangulo(double x, double y)
+            {
+            return x * y;
+            }
